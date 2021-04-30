@@ -3,12 +3,12 @@ Auto Usate = second_auto
 id		        numero		AUTO_INCREMENT	NOTNULL    PRIMARY_KEY	UNIQUE
 modello		    stringa 	varchar(40)	    NOTNULL
 marca		    stringa 	varchar(20)	    NOTNULL
-cambio		    stringa		varchar(15)
+cambio		    stringa		varchar(15)     NULL
 colore		    stringa		varchar(20)
-numero_porte	numero		TINYINT
+numero_porte	numero		TINYINT         NULL
 marce		    numero		TINYINT
 carburante	    stringa		varchar(10)
-cavalli		    numero		MEDIUMINT
+cavalli		    numero		MEDIUMINT       NULL
 anno		    data		YEAR		    NOTNULL
 km_percorsi	    numero		INT		        NOTNULL
 revisione	    numero		TINYINT		    NOTNULL
